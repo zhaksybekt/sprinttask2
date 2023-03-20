@@ -110,7 +110,7 @@ body{
     width: 56%;
 }
 .about_me{
-    background-color:aliceblue;
+    background-color:white;
 }
 .name_surname{
     display: flex;
@@ -156,7 +156,7 @@ body{
 
 .picturee{
     margin-top: 15px;
-    background-color:aliceblue;
+    background-color:white;
     padding: 10px;
 }
 .quantity_picture{
