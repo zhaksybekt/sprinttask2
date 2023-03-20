@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    background-color:#D9DDE3;
+    font-family: arial;
+}
+.header{
+    display: flex;
+    background-color: #4c75a3;
+    align-items: center;
+    height: 50px;
+}
+.logo{
+
+    color:white;
+    text-transform: uppercase;
+    margin: 0 150px 0 200PX;
+}
+.find input{
+    background-color: white;
+    padding: 2px;
+    height: 20px;
+    border: 1px lightgray solid;
+    border-radius: 10px 10px 10px 10px;
+
+    padding-left: 15px;
+}
+/* body */
+
+.bodyy{
+    margin: 20px 150px 0 100px ;
+    display: flex;
+}
+.option{
+    width: 10%;
+    margin-left: 100px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+
+
+}
+.option a{
+    text-decoration: none;
+    color: gray;
+}
+
+/* Main */
+.main{
+    width: 60%;
+    background-color:white;
+
+}
+.option_main{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.button_main{
+    background-color:  #4c75a3;
+    height: 40px;
+    width: 120px;
+    color:black;
+
+}
+.scerch_main{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+}
+.zoom_main{
+    background-color:aliceblue;
+}
+.input_main{
+    width: 100%;
+    margin-left: 15px;
+    border:0;
+}
+.input_main input{
+    padding: 5px;
+    width: 300px;
+}
+
+
+.friend_main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.content_main{
+    background-color: white;
+    height: 80px;
+    display: flex;
+    padding: 0 10px 10px 10px ;
+    border-bottom: lightgrey 1px solid;
+
+}
+.picture_main img{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border:lightgrey;
+    border-radius:50%;
+}
+.some_text{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70px;
+}
+.dot_main{
+    margin-left: 480px ;
+}
+
+
+.tools{
+    width: 25%;
+    margin-left: 20px;
+}
+.option_tools{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    padding: 10px;
+}
+.option_tools p{
+    padding-left: 20px;
+}
+.friend_tools{
+    background-color:white;
+    margin-top: 15px;
+}
+.content_tools{
+    height: 60px;
+    display: flex;
+    padding: 10px;
+    border-bottom: lightgrey 1px solid;
+
+}
+.picture_tools img{
+    width: 60px;
+    height: 60px;
+    border:lightgrey;
+    border-radius:50%;
+}
+.some_text_tools{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70px;
+}
